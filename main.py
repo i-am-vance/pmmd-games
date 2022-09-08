@@ -28,7 +28,7 @@ def minus():
 	
 	print("%s - %s" %(first_number, second_number))
 
-	minus_r_number = first_number + second_number 
+	minus_r_number = first_number - second_number 
 
 	user_input = int(input("Enter the answer: "))
 
