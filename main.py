@@ -55,5 +55,27 @@ def multiplication():
 	else:
 		print("The answer is wrong :/")
 
+def division():
+	digit_one = int(input("Entrer the first number :"))
+	digit_tow = int(input("Entrer the second number :"))
+
+	first_number = randrange(digit_one)
+	second_number = randrange(digit_tow)
+
+	print("%s / %s" %(first_number, second_number)) 	
+	
+	division_r_number = first_number / second_number
+
+	user_input = int(input("Enter the answer: "))
+
+	if user_input == division_r_number :
+		print("The answer is correct :)")
+	else:
+		print("The answer is wrong :/")
+
+
+
+
+
 
 
