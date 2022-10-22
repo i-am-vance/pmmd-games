@@ -32,7 +32,7 @@ def minus():
 
 	user_input = int(input("Enter the answer: "))
 
-	if user_input == plus_r_number :
+	if user_input == minus_r_number :
 		print("The answer is correct :)")
 	else:
 		print("The answer is wrong :/")
@@ -50,7 +50,7 @@ def multiplication():
 
 	user_input = int(input("Enter the answer: "))
 
-	if user_input == plus_r_number :
+	if user_input == multiplication_r_number :
 		print("The answer is correct :)")
 	else:
 		print("The answer is wrong :/")
