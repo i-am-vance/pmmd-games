@@ -74,6 +74,36 @@ def division():
 		print("The answer is wrong :/")
 
 
+print("Welcome to pmmd game")
+print("Which game do you want to play?(Write the name of one of the following games)")
+print("(plus) (minus) (multiplication) (division)")
+
+command = input("$: ")
+
+if command == "plus" or command == "+":
+	plus()
+elif command == "minus" or command == "-":
+	minus()
+elif command == "multiplication" or command == "*":
+	multiplication()
+elif command == "division" or command == "/":
+	division()
+else:
+	print("command not found:/ %s" %command)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
